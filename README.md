@@ -126,7 +126,7 @@ isolated: each cluster's change in share relative to unweighted training follows
 
 | File | What |
 |---|---|
-| `TensorTitans_novelty_kaggle.ipynb` | Complete code: data split, diffusion model and training, recursive loop, classifiers, DINOv2 features, metrics, class-based and cluster-based weighting, evaluation and figures. Each module is written out by the notebook (`%%writefile` cells) and run through `python -m rdb.pipeline`. |
+| `main.ipynb` | Complete code: data split, diffusion model and training, recursive loop, classifiers, DINOv2 features, metrics, class-based and cluster-based weighting, evaluation and figures. Each module is written out by the notebook (`%%writefile` cells) and run through `python -m rdb.pipeline`. |
 | `reports/` | Intensive assessment report and 2-page novelty assessment report (PDF). |
 | `README.md` | This file. |
 
